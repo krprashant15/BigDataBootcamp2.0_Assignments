@@ -1,0 +1,130 @@
+Answer for Assignment Part-1:
+
+Ans1: Python is said general purpose programming lang because we can use python to develop all sorts of application
+	(websites, AI, ML,Data Science,Data Engineering, business softwares) thats why Python is widely used.
+	High Level Lang means that the lang will have abstraction from details of the computer i.e we dont use machine
+	code and assembly lang. And being a programmer we should not worry about low level activities like memory and securtiy management.
+	Python is high level lang as well why because its not compiled language but an interpreted dynamic lang, its like normal
+	english and it is easily readible. 
+
+Ans2: Python is called dynamically typed lang becuase we dont have to explicitly defined the data type of the var.
+	In other lang suppose we have to declare a float type var then we have to define float as a data type but in
+	python we dont define data type of the var.
+
+Ans3: Pros:
+	Python has all almost all programming features from all programming languages i.e functional programming from C
+	OOPs from C++ and Java, Scripting from Pearl and shell script, modular from Modula 3
+	Python can be used everywhere, even NASA, Google, NYSE, Youtube and all top companies use Python.
+	Simple and easy to learn like english lang.
+	Its freeware and open source.
+	Platform independent, I mean we can run python program in any system without rewriting again.
+	It has extensive library.
+	Its embedded, we can use python program in any other lang programs.
+
+	Cons:
+	Performance is not upto the mark becaus its interpreted lang.
+	We can't use Python for creating mobile application.
+
+Ans4: We can use python everywhere and in all domain like data engineering,AI, ML and in data science field.
+
+Ans5: Variable is nothing but a reserved memory location where we store values. Suppose we have variable called 
+	a which stores an integer, so in that case a 4 bytes of memory will be reserved to store an integer value.
+	We declare a variable using naming convention like a=10. We cant use 33 reserved keywords for decalring a variable.
+	We cant declare a variable like 123a=10. We should keep convention in our mind before declare any variable.
+
+
+Ans 6: To take input from use we have input() method so whatever input we give it will be treated as string type so 
+	 we need to do typecasting before processing as per our requirement.
+	 e.g- a= int(input("enter a number")) -> as we enter a number so we had to typecast it into int type.
+
+Ans7: The default data type of the value that has been taken  from the user as an input is String type.
+
+Ans8: Type casting is a way to convert a data type into another data type.
+
+Ans9: Yes we can take more than one input from user using single input () method by using list comprehension.
+
+	a,b= [int(x) for x in input("Enter 2 numbers :").split()] 
+
+	note: here split() function can take space as a default separator but we can take anything as a separtoor
+
+Ans 10: Keywords in python are reserved words which is 33 in total. we cant use those reserved ketwords to define a
+	  variable name or function.
+
+Ans 11: No we cant use keywords as a vraiable because these are predefine for synatx of coding.
+
+Ans 12: Indentation is nothing but the spaces in the begining of any statement in our code which is used to define
+	  the block of the code and if the statement in our code is having same alignment then its called a suite.
+
+Ans 13: So to throw some output in python we use print() function.
+
+Ans 14: Operators is something which do some operation, and to do some operations Python provides set of operators.
+	  Arithmetic operator,logical opeartor,bitwise operator,assignment operator.
+
+Ans15: / will give output in flaot and // will give output in int.
+
+Ans 16: input = 'ineuron'
+	  output = input *4
+	  print(output)
+
+Ans 17: 
+
+a = int(input("enter a number"))
+if a %2 ==0:
+    print("number is even")
+else:
+    print("number is odd")
+
+Ans 18: boolean is an operator to represent the expression to be either true or false.
+
+Ans 19: 1 or 0 ---> 1, because 1 is consider true and 0 is false and if we apply or then it will give true.
+	  0 and 0 ---> 0
+        True and False and True--> False
+	  1 or 0 or 0---> 1
+
+
+Ans 20: if, if-else, if-elif-else are the conditional statement in python.
+
+Ans 21: if is used whether the particukar statement is true or false. I mean if some statement is true then execute 
+        the later part.
+	  elif means even if previous statement is not true then also execute the statments.
+	  else is like optional and it will only run when if and elif returns false 
+
+Ans 22: 
+
+age= int(input("enter age"))
+if age >= 18:
+    print("I can vote")
+else:
+    print("I cant vote")
+
+Ans 23: 
+numbers = [12, 75, 150, 180, 145, 525, 50]
+print(numbers)
+sum=0
+for i in numbers:
+    if i %2==0:
+        sum=sum+i
+print(sum)
+        
+
+Ans 24: 
+
+a= int(input("enter first number"))
+b= int(input("enter second number"))
+c= int(input("enter third number"))
+
+max= a if a >b and a>c else b if b>c else c
+print("greatest number is ",max)
+
+Ans 25:
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+for i in numbers:
+    if i %5==0 and i > 150:
+        continue
+    elif i > 500:
+        break
+print(i)
+ 
+ 
