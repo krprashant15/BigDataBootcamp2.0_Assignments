@@ -1,0 +1,100 @@
+Ans1: As we all know that everthing is an object in pyhton so in oops we use class and object to implement real world scenario like inheritance, polymorphisms, encapsulation, etc. 
+
+Ans 2:Inheritance search looks for an attribute by looking into objects and then at the class level, I mean in the parent class.
+
+Ans 3:Basically class is a blueprint to create an object, so object is real entity that is based on prototype but an instance is a virtual copy of the objects.
+
+Ans 4:The first parameter of a function call in a class must be object so as per the convention we use self as the first parameter.
+
+Ans 5: init method works as a contructor present in java, which is used to declare and initialize instance variables. it will be executed automatically at
+	 the time of object creation.
+
+Ans 6:To create a class instance , we call class using class name and pass in the arguments which init methods accepts.
+
+Ans 7: To create a class we use class keyword and class name starts with cap letter and before creating class we need to identify what is the state and 
+       behaviour of that particular class for whcih we will be creating objects.
+
+Ans 8: To define child class which is subclass of superclass. Suppose A is superclass and b is subclass then we define subclass as class B(A):
+
+Ans 9: Module is nothing but set of .py files so a module can contain n no of classes
+
+Ans10: To make instance we need class and to make class we need state and behaviour of the objects for which we are going to create class.
+
+Ans 11: Class attributes can be created inside a class and that will be shared among all the objects of the class.
+
+Ans 12: Instance attribute are created inside contructor which is init method, where we attach instance attribute using self.
+
+Ans 13:Self in a python class refer to current instance of the class and using self we can access all the state and behaviour of the objects.
+
+Ans 14: In python we can overload existing operator but we cant create new operator so to do so python provides some sepcial functions which will be 
+        automatically invoked when it is associated with the operator. e.g for + operator we have __add__ function to overload the operator.
+
+Ans 15: Suppose we have two objects for a class and we want to add those two object with operator + so in that case it will throw error because compiler
+        dont know how to add two objects so in that case we define a method for an operator for operator overloading like __add__.
+
+Ans 16.The most common exmaple is + operator, + operator can be used to add two numbers and the same operator can be used to concatenate the two strings.
+
+Ans 17.The two most important concepts to grasp in order to comprehend Python OOP code are Inheritance and encapsulation.
+
+Ans 18:For exception processing, first of all we have Exception class which is base class for all exceptions, FileNotFounfError,EOFError.
+
+Ans 19: If we dont do something extra to treat exceptions then in that case our program will terminate abnormally and the poijt where exception raised after that
+        the program will not excecute.
+
+Ans 20: to recover from exception present in our pyhthon program we put risky code in try block and for that except block which will handle exception.
+
+Ans 21:Using try and raise we can trigger exception in our python ocode.
+
+Ans22:Frist is finally which will always execute whether exception raised or not.
+
+Ans23:The purpose of try block is to test whether the code is having some exceptions or not.
+
+Ans 24:try with single except and try with m ultiple except block
+
+Ans 25:For user define exception we use raise keyword to raise an exception.
+
+Ans26:Assert is used for debugging puporse to test our code like in unit testing.Assert keyword tests if a condition is true or false.
+
+Ans 27: With statment is replacement for error handling statements, like we use with statement for opening a file .
+
+Ans 28:*args in function definition is used to pass variable number of arguments, if we use *args it will allow us to take more argumments than the no of
+	  formal argumemts which we defined previously.
+	 **kwargs is used for keyworded var args, Internally these keyword arguments will be stored inside a dictionary(key, value pair).
+
+Ans 29:To pass optional or keyword parameters from one function to another, we collect argumets using * and ** in the function's parameter list.
+
+Ans 30:lmbda function is nothing but anonymous function with no name, we use lambda keyword to define a lambda function. we can write concise code using 
+	 lambda function so the readibility will be increased.
+
+Ans 31:When a class inherit all the properties and behaviour from another class then its called inheritance.
+	
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def printname(self):
+    print(self.name, self.age)
+
+
+
+x = Person("John", 29)
+x.printname()
+
+class Student(Person):
+  pass
+
+x = Student("Mike", 34)
+x.printname()
+
+Ans 32: In python, incase of multiple inheritance like C(A,B) the latest class method will be invoked i.e class A.
+
+ANs 33:To determinie type of instance we use isinstance() method and to determine inheritance we use issubclass().
+
+Ans 34:The nonlocal keyword is used to work with variables inside nested functions whose local scopes are not defined
+
+Ans35:We use global keyword for 2 purposes.  To declare global variable inside function and To make global variable available to the function so that 
+      we can perform required modifications
+
+
+
