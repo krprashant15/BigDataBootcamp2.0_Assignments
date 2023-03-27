@@ -1,0 +1,56 @@
+Ans 1: To load a CSV file into a Pandas DataFrame, first we must import pandas lib and we use read_csv() method.
+
+Ans 2: To check the data type of a column in a Pandas DataFrame, we use df.dtypes where df is data frame.
+
+Ans 3: To select rows from a Pandas DataFrame based on a condition, we use basic method i.e dataframe['columnname'] and using loc[dataframe['columnname']] method
+
+Ans 4: To rename columns in a Pandas DataFrame, we use set_axis() function, so we will pas new column name and axis that needs to be replaced with a new name 
+	 in the column as a parameter.
+
+Ans 5: To drop columns in a Pandas DataFrame we use drop function.
+
+Ans 6: To find the unique values in a column of a Pandas DataFrame, we use unique method for that particular column.
+
+Ans 7: To find the number of missing values in each column of a Pandas DataFrame, we use Pandas isna() function which returns boolean dataframe so to get 
+       the count we must use sum() method on top of that i.e df.isna().sum().
+
+Ans 8: To fill missing values in a Pandas DataFrame with a specific value, we use isnull() method to check null values which return dataframe of 
+	 Boolean values which are True for NaN values. now we can use fillna() or replace() method to fill missing vlaues.
+
+Ans 9: To concatenate two Pandas DataFrames, we use concat() method. e.g - concated_df = [df1, df2] --> result = pd.concat(concated_df)
+
+Ans 10: To merge two Pandas DataFrames on a specific column by using the merge function by simply specifying the certain columns for merge. 
+
+Ans 11: To group data in a Pandas DataFrame by a specific column and apply an aggregation function, we first use aggregate() function to apply some 
+	  aggregation across one or more columns and for grouping  we use groupby() function on the dataframe.
+
+Ans 12: To pivot a Pandas DataFrame, we use pivot() function to reshape the given dataframe based on specific columns.
+
+Ans 13: To change the data type of a column in a Pandas DataFrame, we use DataFrame.astype() to cast pandas object to a specified dtype.
+
+Ans 14: To sort a Pandas DataFrame by a specific column, we use sort_values() method.
+
+Ans 15: To create a copy of a Pandas DataFrame, we use copy() method By default, the copy is a "deep copy" meaning that any changes made in the 
+        original DataFrame will NOT be reflected in the copy. 
+
+Ans 16: To filter rows of a Pandas DataFrame by multiple conditions, we use loc() method. we can also do this by using numpy 
+
+Ans 17: To calculate the mean of a column in a Pandas DataFrame, we use dataframe.mean() method.
+
+Ans 18: To calculate the standard deviation of a column in a Pandas DataFrame, we use dataframe.std() method.
+
+Ans 19: To calculate the correlation between two columns in a Pandas DataFrame, we use corr() method.
+
+Ans 20: To select specific columns in a DataFrame using their labels, we use DataFrame.loc[] and DataFrame.iloc[] to select a single column or 
+	  multiple columns from pandas DataFrame by column names/label or index position respectively.
+
+Ans 21: To select specific rows in a DataFrame using their indexes, we use iloc[index].
+
+Ans 22: To sort a DataFrame by a specific column, we use sort_values().
+
+Ans 23: To create a new column in a DataFrame based on the values of another column,we use apply() function to create new column .
+
+Ans 24: To remove duplicates from a DataFrame, we use drop_duplicates() method.
+
+Ans 25: .loc and .iloc in Pandas is used to slice date from the pandas dataframes. .loc is labled based selecting method,This method includes the last element of the range passed in it, unlike iloc()
+loc() can accept the boolean data unlike iloc().iloc() function is an indexed-based selecting method.
